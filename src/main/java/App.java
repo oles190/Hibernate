@@ -39,6 +39,7 @@ public class App {
         Session session = MySessionFactory.getSession();
         Transaction transaction = session.beginTransaction();
 
+
 user2.setCars(new HashSet<>(Arrays.asList(carPassport4,carPassport5)));
 user2.setProducts(new HashSet<>(Arrays.asList(product3)));
 
